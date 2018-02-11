@@ -29,7 +29,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 def turn(board)
-  puts "Please enter 1-9:\n"
+  puts "Please enter 1-9:#{move(board, index, players_char)}"
   user_selection = gets.strip
 index = input_to_index(user_selection)
    valid_move?(board, index) ? input_to_index(user_selection) : turn(board)
