@@ -19,11 +19,9 @@ def move(board, input_to_index, players_char = "X")
   board[input_to_index] = players_char
   board
 end 
-def input_to_index(user_input)
-  user_input.to_i - 1
-end
+
 def turn(board)
   puts "Please enter 1-9:"
-  player_selection = gets.strip
+  board = gets.strip
 
 end
