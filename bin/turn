@@ -6,9 +6,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "\nWelcome to Tic Tac Toe!\n\n"
 
-
-
-
 turn(board)
 
 puts "\n\n"
