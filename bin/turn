@@ -6,7 +6,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "\nWelcome to Tic Tac Toe!\n\n"
 
-display_board(board)
 
 
 
