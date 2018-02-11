@@ -29,7 +29,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 def turn(board)
-  println "Please enter 1-9:"
+  puts "Please enter 1-9:"
   user_selection = gets.strip
 index = input_to_index(user_selection)
    user_selection.to_i.between?(1, 9) ? input_to_index(user_selection) : turn(board)
