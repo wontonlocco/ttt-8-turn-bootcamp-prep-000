@@ -23,5 +23,9 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   board = gets.strip
+  valid_input = board.to_i - 1
+  if valid_input.between?(0, 8)
+    
+  end
 
 end
