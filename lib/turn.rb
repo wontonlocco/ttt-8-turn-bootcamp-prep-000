@@ -23,8 +23,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 def turn(board)
-  puts "Please enter 1-9:"
-  user_selection = gets.chomp!
+  
    user_selection.to_i.between?(1, 9) ? input_to_index(user_selection) : turn(board)
   display_board(board)
 end
