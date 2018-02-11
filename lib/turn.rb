@@ -22,7 +22,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  board = gets.strip
+  board = gets.chomp.to_i 
   
 
 end
