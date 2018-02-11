@@ -27,5 +27,5 @@ def turn(board)
   user_selection = gets.chomp!
    user_selection.to_i.between?(1, 9) ? input_to_index(user_selection) : turn(board)
   
-  board
+  display_board(board)
 end
