@@ -13,6 +13,6 @@ println "Please enter 1-9:"
 index = input_to_index(user_selection)
 move(board, index)
 
-turn(board, user_selection)
+turn(board)
 
 puts "\n\n"
