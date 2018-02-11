@@ -9,7 +9,6 @@ puts "\nWelcome to Tic Tac Toe!\n\n"
 display_board(board)
 
 
-move(board, index)
 
 turn(board)
 
