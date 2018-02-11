@@ -25,7 +25,7 @@ def turn(board)
   board = gets.strip
   valid_input = board.to_i - 1
   if valid_input.between?(0, 8)
-    
+    move(board, valid_input, )
   end
 
 end
