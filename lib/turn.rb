@@ -23,7 +23,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   user_selection = gets.chomp!
-   user_selection.between?(1-9) ? 
+   user_selection.to_i.between(1-9) ? 
   
 
 end
