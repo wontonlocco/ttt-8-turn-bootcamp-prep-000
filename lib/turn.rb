@@ -28,8 +28,8 @@ end
 def input_to_index(user_input)
   user_input.to_i - 1
 end
-def turn(board, user_selection)
+def turn(board)
   
-   user_selection.to_i.between?(1, 9) ? input_to_index(user_selection) : turn(board, user_selection)
+   user_selection.to_i.between?(1, 9) ? input_to_index(user_selection) : turn(board)
   display_board(board)
 end
